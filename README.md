@@ -1,2 +1,2 @@
 # Multi-Client-Chat
-Multi client chat application 
+Multi client chat application in Java
