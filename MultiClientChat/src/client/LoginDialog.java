@@ -67,7 +67,7 @@ class LoginDialog extends JFrame  {
 		sendJSON(obj,2);
 	}
 	private void sendJSON(JSONObject obj,int type) {
-		String uname=username.getText(),pass=password.getText();
+		String uname=username.getText().toLowerCase(),pass=password.getText().toLowerCase();
 		obj.put("username",uname);
 		obj.put("password",pass);
 		try{
